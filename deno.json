@@ -1,0 +1,15 @@
+{
+  "test": {
+    "include": [
+      "q*p*.*",
+      "**/*.test.*",
+      "**/*_test.*",
+      "**/test.*",
+      "**/__tests__/**"
+    ]
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1",
+    "@std/collections": "jsr:@std/collections@^1.0.9"
+  }
+}
